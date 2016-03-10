@@ -34,8 +34,24 @@ nav a:visited{
 	color:orange;
 }
 nav a:hover{
-	font-size: 30px;
-	color:black;
+	/*font-size: 30px;*/
+	color:red;
+}
+nav a:active{
+	color: black;
+}
+main{
+	overflow: auto;
+}
+nav li{
+	margin: 20px;
+}
+nav ul{
+	list-style: none;
+}
+main p::selection{
+	background-color: red;
+	color: yellow;
 }
 
 footer {
@@ -58,7 +74,7 @@ main {
   width: 1000px;
   float: left;
   text-align: center;
-	text-decoration-color: green;
+
   color: blue;
   height: 500px;
 }
