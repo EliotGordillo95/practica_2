@@ -30,6 +30,14 @@ nav {
   height: 500px;
 }
 
+nav a:visited{
+	color:orange;
+}
+nav a:hover{
+	font-size: 30px;
+	color:black;
+}
+
 footer {
   width: 1100px;
   padding-left:  50px;
@@ -39,16 +47,23 @@ footer {
   border: 5px solid black;
   float: left;
   text-align: center;
+	text-decoration-color: black;
   color: black;
   height: 50px;
+}
+footer p:hover{
+	color:green;
 }
 main {
   width: 1000px;
   float: left;
   text-align: center;
+	text-decoration-color: green;
   color: blue;
   height: 500px;
-
+}
+p.intro::first-letter{
+	font-size: xx-large;
 }
 
 
